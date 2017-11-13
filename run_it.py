@@ -10,6 +10,9 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
 
+    def test_isequal(self):
+	self.assertEqual('foo'.upper(), 'FAIL')
+
     def test_split(self):
         s = 'hello world'
         self.assertEqual(s.split(), ['hello', 'world'])
