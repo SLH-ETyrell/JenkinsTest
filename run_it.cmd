@@ -1,2 +1,3 @@
+#!/bin/bash
 setenv.cmd
-python run_it.py
+python ./run_it.py
